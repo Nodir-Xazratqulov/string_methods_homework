@@ -7,4 +7,9 @@ def main(s):
         bool: answer
     """
     
-    return
+    if s==s.upper():
+        return True
+    elif s==s.capitalize():
+        return False
+
+print(main('HELLO'))
