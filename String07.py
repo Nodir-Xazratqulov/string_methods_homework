@@ -7,4 +7,9 @@ def main(s):
         bool: answer
     """
     
-    return
+    if s.isdigit():
+        return True
+    else:
+        return False
+    
+print(main('1233'))
