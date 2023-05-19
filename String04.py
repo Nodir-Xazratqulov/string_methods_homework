@@ -6,5 +6,9 @@ def main(s):
     Returns:
         bool: answer
     """
+    if s==s.capitalize():
+        return False
+    else:
+        return True
     
-    return
+print(main('Mobile'))
